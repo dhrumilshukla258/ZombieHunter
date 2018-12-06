@@ -1,0 +1,25 @@
+{
+  "Sprite": {
+    "Texture": [ "tombStone1.png" ],
+    "Shape": "Square"
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+  "Type": "NOCOLLISIONTHING",
+  "Text": {
+    "color": {
+      "b": 0.0,
+      "g": 1.0,
+      "r": 1.0
+    },
+    "whatsTheText": "Welcome to The Control Screen",
+    "scale": 2,
+    "time": 0,
+    "x": 15,
+    "y": 550
+  }
+}

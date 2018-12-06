@@ -1,0 +1,19 @@
+{
+  "Sprite": {
+    "Shape": "Square",
+    "Texture": ["tile2.png"]
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+  "Type": "PRESSKEY1",
+  "Body": {
+    "mass": 1.0,
+    "Line": {
+      "length": 100.0
+    }
+  }
+}

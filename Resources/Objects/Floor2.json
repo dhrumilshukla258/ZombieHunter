@@ -1,0 +1,22 @@
+{
+  "Sprite": {
+    "Shape": "Square",
+    "Texture": ["tile1.png"]
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+  "Type": "FLOOR",
+  "Body": {
+    "mass": 1.0,
+    "AABB": {
+      "top": 800,
+      "bottom": 800,
+      "left": 50,
+      "right": 50
+    }
+  }
+}

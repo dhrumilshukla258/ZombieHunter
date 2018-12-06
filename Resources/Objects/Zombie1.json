@@ -1,0 +1,53 @@
+{
+  "Sprite": {
+    "Shape": "Square",
+    "SpriteFiles": {
+      "walk": {
+        "imageFile": "walk.png",
+        "mulTextureX": 0.5,
+        "mulTextureY": 0.333333,
+        "numOfImages": 6,
+        "timerLimit": 600.0
+      },
+      "hurt": {
+        "imageFile": "hurt.png",
+        "mulTextureX": 0.2,
+        "mulTextureY": 1,
+        "numOfImages": 5,
+        "timerLimit": 400.0
+      },
+      "dead": {
+        "imageFile": "dead.png",
+        "mulTextureX": 0.25,
+        "mulTextureY": 0.5,
+        "numOfImages": 8,
+        "timerLimit": 500.0
+      },
+      "run": {
+        "imageFile": "run.png",
+        "mulTextureX": 0.2,
+        "mulTextureY": 0.5,
+        "numOfImages": 8,
+        "timerLimit": 400.0
+      },
+      "isFlip": true
+    },
+    "Folder": "zombie1"
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+  "Type": "ZOMBIE1",
+  "Body": {
+    "mass": 1.0,
+    "AABB": {
+      "top": 40,
+      "bottom": 40,
+      "left": 100,
+      "right": 100
+    }
+  }
+}

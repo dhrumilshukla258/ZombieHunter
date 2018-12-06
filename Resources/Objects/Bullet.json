@@ -1,0 +1,25 @@
+{
+  "Type": "BULLET",
+
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 2.0,
+    "scaley": 2.0
+  },
+
+  "Sprite": {
+    "Shape": "Square",
+    "Texture": [ "bullet.png" ]
+  },
+
+  "Body": {
+    "mass": 0,
+    "AABB": {
+      "top": 2,
+      "bottom": 2,
+      "left": 5,
+      "right": 5
+    }
+  }
+}
