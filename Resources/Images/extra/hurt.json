@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "1_police_Hurt_000.png",
+	"frame": {"x":0,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_001.png",
+	"frame": {"x":1400,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_002.png",
+	"frame": {"x":2800,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_003.png",
+	"frame": {"x":4200,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_004.png",
+	"frame": {"x":5600,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_005.png",
+	"frame": {"x":7000,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_006.png",
+	"frame": {"x":8400,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_007.png",
+	"frame": {"x":9800,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Hurt_008.png",
+	"frame": {"x":11200,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "hurt.png",
+	"format": "RGBA8888",
+	"size": {"w":12600,"h":1400},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:36f3c413bf7bc7d18b6f57c53e26597f:7f3ccbeba1ba9beee9aac55c21093244:9dda0143683f3b079bf6b30705451832$"
+}
+}

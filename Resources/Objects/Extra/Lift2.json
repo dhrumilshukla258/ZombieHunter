@@ -1,0 +1,26 @@
+{
+  "Sprite": {
+    "Shape": "Square"
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+  "Type": "LIFT",
+  "UpDown": {
+    "goingUp": true,
+    "timerLimit": 2000,
+    "speed": 0.0
+  },
+  "Body": {
+    "mass": 0,
+    "AABB": {
+      "top": 100,
+      "bottom": 100,
+      "left": 10,
+      "right": 10
+    }
+  }
+}

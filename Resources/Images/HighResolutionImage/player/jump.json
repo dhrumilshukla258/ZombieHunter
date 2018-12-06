@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "1_police_Jump_000 (Copy).png",
+	"frame": {"x":0,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_001 (Copy).png",
+	"frame": {"x":800,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_002 (Copy).png",
+	"frame": {"x":1600,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_003 (Copy).png",
+	"frame": {"x":2400,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_004 (Copy).png",
+	"frame": {"x":0,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_005 (Copy).png",
+	"frame": {"x":800,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_006 (Copy).png",
+	"frame": {"x":1600,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Jump_007 (Copy).png",
+	"frame": {"x":2400,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "jump.png",
+	"format": "RGBA8888",
+	"size": {"w":3200,"h":1200},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4fdc7b3f7566f49c13d93bdd72b5ca50:7bd1d918d5494a586a2bd9fc0f9c26d6:56c9fa24931e40777fe0ddacfe328adf$"
+}
+}

@@ -1,0 +1,75 @@
+{"frames": [
+
+{
+	"filename": "Jump1 (Copy).png",
+	"frame": {"x":0,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Jump2 (Copy).png",
+	"frame": {"x":800,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Jump3 (Copy).png",
+	"frame": {"x":1600,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Jump4 (Copy).png",
+	"frame": {"x":2400,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Jump5 (Copy).png",
+	"frame": {"x":3200,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Jump6 (Copy).png",
+	"frame": {"x":4000,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Jump7 (Copy).png",
+	"frame": {"x":4800,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "jump.png",
+	"format": "RGBA8888",
+	"size": {"w":5600,"h":600},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:eb0239959ae17424d36de34abbab092a:7e13982b2a419a261e1c23abf2cce64e:56c9fa24931e40777fe0ddacfe328adf$"
+}
+}

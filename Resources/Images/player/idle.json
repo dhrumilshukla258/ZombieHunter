@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "1_police_Idle_000 (Copy).png",
+	"frame": {"x":0,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_001 (Copy).png",
+	"frame": {"x":800,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_002 (Copy).png",
+	"frame": {"x":1600,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_003 (Copy).png",
+	"frame": {"x":2400,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_004 (Copy).png",
+	"frame": {"x":0,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_005 (Copy).png",
+	"frame": {"x":800,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_006 (Copy).png",
+	"frame": {"x":1600,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "1_police_Idle_007 (Copy).png",
+	"frame": {"x":2400,"y":600,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "idle.png",
+	"format": "RGBA8888",
+	"size": {"w":3200,"h":1200},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:86e959ddf475208ce026bdaae5ad9d87:f46d79f4222492e55a43706214aa1381:585717d7804995c87573698b70e44cb4$"
+}
+}

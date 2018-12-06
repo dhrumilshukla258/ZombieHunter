@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "1_police_Run_000.png",
+	"frame": {"x":0,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Run_001.png",
+	"frame": {"x":1400,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Run_002.png",
+	"frame": {"x":2800,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Run_003.png",
+	"frame": {"x":4200,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Run_004.png",
+	"frame": {"x":5600,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_Run_005.png",
+	"frame": {"x":7000,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "run.png",
+	"format": "RGBA8888",
+	"size": {"w":8400,"h":1400},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88f25a15ab0149c9b276ebf9288094ce:da28a7e0ea1b316ffb3c406e32441bb1:0bfa41ad2432204f88f9f54b9f6b3241$"
+}
+}

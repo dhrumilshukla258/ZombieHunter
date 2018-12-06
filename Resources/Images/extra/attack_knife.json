@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "1_police_attack_Attack1_000.png",
+	"frame": {"x":0,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_001.png",
+	"frame": {"x":1400,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_002.png",
+	"frame": {"x":2800,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_003.png",
+	"frame": {"x":4200,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_004.png",
+	"frame": {"x":5600,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_005.png",
+	"frame": {"x":7000,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_006.png",
+	"frame": {"x":8400,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_007.png",
+	"frame": {"x":9800,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_008.png",
+	"frame": {"x":11200,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack1_009.png",
+	"frame": {"x":12600,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "attack_knife.png",
+	"format": "RGBA8888",
+	"size": {"w":14000,"h":1400},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a7ee32bf16a60f4d3baedff1b19c2c1f:b4b22085bde3830de6b0629f076dc066:aabfe89b0affa63e069a52c0a071807d$"
+}
+}

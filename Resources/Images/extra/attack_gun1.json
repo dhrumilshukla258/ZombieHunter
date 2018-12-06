@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "1_police_attack_Attack_000_000.png",
+	"frame": {"x":0,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack_000_001.png",
+	"frame": {"x":1400,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack_000_002.png",
+	"frame": {"x":2800,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack_000_003.png",
+	"frame": {"x":4200,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack_000_004.png",
+	"frame": {"x":5600,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+},
+{
+	"filename": "1_police_attack_Attack_000_005.png",
+	"frame": {"x":7000,"y":0,"w":1400,"h":1400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":1400},
+	"sourceSize": {"w":1400,"h":1400}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "attack_gun1.png",
+	"format": "RGBA8888",
+	"size": {"w":8400,"h":1400},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6dab15971b89c46e7f2c9d6322528c97:e243a688f5973a2f8cbc0c0cf6539a2b:e064a49ac952dd91079d397771684f93$"
+}
+}
