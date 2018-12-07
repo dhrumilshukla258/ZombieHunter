@@ -1,2 +1,29 @@
-﻿  Physics Manager.cpp
+﻿  Body.cpp
+  Camera.cpp
+  Collision Manager.cpp
+  Component.cpp
+  Controller.cpp
+  Event Manager.cpp
+  Frame Rate Controller.cpp
+  Game Object Manager.cpp
+  Game Object.cpp
+  Input Manager.cpp
+  LeftRight.cpp
+  Main.cpp
+  Mesh.cpp
+  Object Factory.cpp
+  Physics Manager.cpp
+  Render Manager.cpp
+  Resource Manager.cpp
+  Shader.cpp
+  Sprite.cpp
+  Text.cpp
+  Generating Code...
+  Compiling...
+  TextRenderer.cpp
+d:\projects\cs529\engine\gameengine1.0\game engine\textrenderer.cpp(78): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+  Transform.cpp
+  UpDown.cpp
+  Vector2D.cpp
+  Generating Code...
   Game Engine.vcxproj -> D:\Projects\CS529\Engine\GameEngine1.0\Game Engine\Debug\Game Engine.exe
