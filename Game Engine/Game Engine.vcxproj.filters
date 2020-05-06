@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Frame Rate Controller.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Object.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Object Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDown.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Object Factory.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="std_image.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Event Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftRight.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Previous Work</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frame Rate Controller.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Object.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Object Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDown.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Object Factory.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Event Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftRight.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Previous Work</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{1c490383-bd24-49d8-8482-0d128e41dc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{d0d3562f-19d4-4f1d-b405-5fa9621a229d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{c2bc4d9e-22b9-4916-a80f-cd29cfaa1501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Previous Work">
+      <UniqueIdentifier>{c5cd0eaa-d5f6-4425-ac64-9117b7d7e3c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaderTexture.fs">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="shaderTexture.vs">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="shaderColor.vs">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="shaderColor.fs">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="shaderText.fs">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="shaderText.vs">
+      <Filter>Render</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+{
+  "Type": "CIRCLE",
+
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 5.0,
+    "scaley": 5.0
+  },
+
+  "Sprite": {
+    "Shape": "Square",
+    "Texture": [ "circle.png" ]
+  },
+
+  "Body": {
+    "mass": 0,
+    "Circle": {
+      "radius": 5
+    }
+  }
+}

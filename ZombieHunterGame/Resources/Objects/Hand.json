@@ -1,0 +1,13 @@
+{
+  "Sprite": {
+    "Texture": [ "Hand.png" ],
+    "Shape": "Square"
+  },
+  "Transform": {
+    "posx": 400.0,
+    "posy": 150.0,
+    "scalex": 25.0,
+    "scaley": 55.0
+  },
+  "Type": "PLAYER"
+}

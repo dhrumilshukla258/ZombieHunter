@@ -1,0 +1,25 @@
+{
+  "Type": "KNIFE",
+
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 10.0,
+    "scaley": 50.0
+  },
+
+  "Sprite": {
+    "Shape": "Square",
+    "Texture": [ "knife.png" ]
+  },
+
+  "Body": {
+    "mass": 0,
+    "AABB": {
+      "top": 35,
+      "bottom": 35,
+      "left": 10,
+      "right": 10
+    }
+  }
+}

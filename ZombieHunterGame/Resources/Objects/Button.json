@@ -1,0 +1,33 @@
+{
+  "Body": {
+    "mass": 0.0,
+    "AABB": {
+      "bottom": 100.0,
+      "left": 100.0,
+      "right": 100.0,
+      "top": 100.0
+    }
+  },
+  "Sprite": {
+    "Texture": [ "tombStone1.png" ],
+    "Shape": "Square"
+  },
+  "Text": {
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 0.0
+    },
+    "whatsTheText": "Button",
+    "scale": 3,
+    "time": 0,
+    "x": 50,
+    "y": 50
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  }
+}

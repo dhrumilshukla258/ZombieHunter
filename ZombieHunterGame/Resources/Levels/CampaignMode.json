@@ -1,0 +1,643 @@
+{
+  "BackGround": {
+    "BgImage": "background.png"
+  },
+  "ListOfGameObjects": {
+    "Objs": [
+      "Player.json",
+      "Zombie1.json",
+      "Zombie2.json",
+      "ZombieRun1.json",
+      "ZombieRun2.json",
+      "Lift1.json",
+      "Bullet.json",
+      "Floor1.json",
+      "Knife.json",
+      "Circle.json",
+      "LineSegment.json",
+      "Key.json",
+      "Crate.json",
+      "Lift1.json",
+      "Bush.json",
+      "Bush2.json",
+      "DeadBush.json",
+      "Arrow.json",
+      "Tree.json",
+      "Sign.json",
+      "Sign2.json",
+      "tombStone.json",
+      "tombStone2.json",
+      "skeleton.json"
+    ]
+  },
+  "LiveZombie": { "num": 5 },
+  "Bush1": {
+    "File": "Bush.json",
+    "Transform": {
+      "posx": 300,
+      "posy": 100,
+      "scalex": 150.0,
+      "scaley": 100.0
+    }
+  },
+  "ArrowSign": {
+    "File": "Arrow.json",
+    "Transform": {
+      "posx": 30,
+      "posy": 80,
+      "scalex": 50.0,
+      "scaley": 80.0
+    }
+  },
+  "SignHint": {
+    "File": "Sign.json",
+    "Transform": {
+      "posx": 1050,
+      "posy": 490,
+      "scalex": 100,
+      "scaley": 80
+    }
+  },
+  "Tree1": {
+    "File": "Tree.json",
+    "Transform": {
+      "posx": 700,
+      "posy": 200,
+      "scalex": 300.0,
+      "scaley": 400.0
+    }
+  },
+  "TombStone": {
+    "File": "tombStone.json",
+    "Transform": {
+      "posx": 720,
+      "posy": 495,
+      "scalex": 60,
+      "scaley": 100
+    }
+  },
+  "TombStone1": {
+    "File": "tombStone2.json",
+    "Transform": {
+      "posx": 2350,
+      "posy": 385,
+      "scalex": 40,
+      "scaley": 50
+    }
+  },
+  "Skeleton1": {
+    "File": "skeleton.json",
+    "Transform": {
+      "posx": 1800,
+      "posy": 90,
+      "scalex": 150.0,
+      "scaley": 80.0
+    }
+  },
+  "Sign2": {
+    "File": "Sign2.json",
+    "Transform": {
+      "posx": 3400,
+      "posy": 290,
+      "scalex": 100,
+      "scaley": 80
+    }
+  },
+  "DeadBush2": {
+    "File": "DeadBush.json",
+    "Transform": {
+      "posx": 2600,
+      "posy": 120,
+      "scalex": 300.0,
+      "scaley": 150.0
+    }
+  },
+  "Bush2": {
+    "File": "Bush2.json",
+    "Transform": {
+      "posx": 2000,
+      "posy": 260,
+      "scalex": 150.0,
+      "scaley": 100.0
+    }
+  },
+  "Crate1": {
+    "File": "Crate.json",
+    "Transform": {
+      "posx": 2250,
+      "posy": 100,
+      "scalex": 100.0,
+      "scaley": 100.0
+    },
+    "Body": {
+      "mass": 0
+    }
+  },
+  "Lift1": {
+    "File": "Lift1.json",
+    "Transform": {
+      "posx": 430,
+      "posy": 400,
+      "scalex": 100.0,
+      "scaley": 10.0
+    },
+    "Body": {
+      "mass": 0
+    },
+    "UpDown": {
+      "goingUp": false,
+      "timerLimit": 18000,
+      "speed": 1.0
+    }
+  },
+  "Lift2": {
+    "File": "Lift1.json",
+    "Transform": {
+      "posx": 1200,
+      "posy": 355,
+      "scalex": 100.0,
+      "scaley": 10.0
+    },
+    "Body": {
+      "mass": 0
+    },
+    "UpDown": {
+      "goingUp": false,
+      "timerLimit": 16000,
+      "speed": 1.0
+    }
+  },
+  "Lift3": {
+    "File": "Lift1.json",
+    "Transform": {
+      "posx": 2175,
+      "posy": 200,
+      "scalex": 100.0,
+      "scaley": 10.0
+    },
+    "Body": {
+      "mass": 0
+    },
+    "UpDown": {
+      "goingUp": true,
+      "timerLimit": 12000,
+      "speed": 1.0,
+      "start": false
+    },
+    "Type": "LIFT3"
+  },
+  "Player": {
+    "File": "Player.json",
+    "Transform": {
+      "posx": 100,
+      "posy": 150,
+      "scalex": 150.0,
+      "scaley": 105.0
+    },
+    "Body": {
+      "mass": 5
+    }
+  },
+  "Tile1": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 400,
+      "posy": 25,
+      "scalex": 800,
+      "scaley": 50
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 800,
+        "bottom": 800,
+        "left": 50,
+        "right": 50
+      }
+    }
+  },
+  "Tile2": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 850,
+      "posy": 425,
+      "scalex": 600,
+      "scaley": 50
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 600,
+        "bottom": 600,
+        "left": 50,
+        "right": 50
+      }
+    }
+  },
+  "Tile3": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 2250,
+      "posy": 25,
+      "scalex": 1000,
+      "scaley": 50
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 1000,
+        "bottom": 1000,
+        "left": 50,
+        "right": 50
+      }
+    }
+  },
+  "Tile4": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 2000,
+      "posy": 200,
+      "scalex": 250,
+      "scaley": 20
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 250,
+        "bottom": 250,
+        "left": 20,
+        "right": 20
+      }
+    }
+  },
+  "Tile5": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 3200,
+      "posy": 250,
+      "scalex": 500,
+      "scaley": 25
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 500,
+        "bottom": 500,
+        "left": 25,
+        "right": 25
+      }
+    }
+  },
+  "Tile6": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 2475,
+      "posy": 350,
+      "scalex": 400,
+      "scaley": 20
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 400,
+        "bottom": 400,
+        "left": 20,
+        "right": 20
+      }
+    }
+  },
+  "Tile7": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 1650,
+      "posy": 625,
+      "scalex": 1,
+      "scaley": 1
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 3300,
+        "bottom": 3300,
+        "left": 25,
+        "right": 25
+      }
+    }
+  },
+  "Tile8": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 3700,
+      "posy": 625,
+      "scalex": 1,
+      "scaley": 1
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 300,
+        "bottom": 300,
+        "left": 25,
+        "right": 25
+      }
+    }
+  },
+  "ZombieWalk": {
+    "File": "Zombie1.json",
+    "Transform": {
+      "posx": 735,
+      "posy": 451,
+      "scalex": 220.0,
+      "scaley": 150.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 70,
+        "left": 100,
+        "right": 100,
+        "top": 70
+      }
+    }
+  },
+  "ZombieThrowKnife1": {
+    "File": "Zombie2.json",
+    "Transform": {
+      "posx": 735,
+      "posy": 150,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 50,
+        "left": 100,
+        "right": 100,
+        "top": 50
+      }
+    }
+  },
+  "ZombieThrowKnife2": {
+    "File": "Zombie2.json",
+    "Transform": {
+      "posx": 2620,
+      "posy": 435,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 50,
+        "left": 100,
+        "right": 100,
+        "top": 50
+      }
+    }
+  },
+  "ZombieRun1": {
+    "File": "ZombieRun1.json",
+    "Transform": {
+      "posx": 2700,
+      "posy": 145,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 50,
+        "left": 100,
+        "right": 100,
+        "top": 50
+      }
+    },
+    "LeftRight": {
+      "goingRight": false,
+      "timerLimit": 20000,
+      "speed": 2.0
+    }
+  },
+  "ZombieRun2": {
+    "File": "ZombieRun2.json",
+    "Transform": {
+      "posx": 1800,
+      "posy": 150,
+      "scalex": 220.0,
+      "scaley": 160.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 50,
+        "left": 100,
+        "right": 100,
+        "top": 50
+      }
+    },
+    "LeftRight": {
+      "goingRight": true,
+      "timerLimit": 20000,
+      "speed": 2.0
+    },
+    "Type": "ZOMBIERUN"
+  },
+  "LineSegment1": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 1500,
+      "posy": 500,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 90
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment2": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 1300,
+      "posy": 500,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 90
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment3": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 1350,
+      "posy": 450,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 0
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment4": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 1950,
+      "posy": 500,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 45
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment5": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 2100,
+      "posy": 500,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 135
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment6": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 2100,
+      "posy": 400,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 45
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment7": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 2010,
+      "posy": 400,
+      "scalex": 80.0,
+      "scaley": 5.0,
+      "angle": 90
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 80.0
+      }
+    }
+  },
+  "LineSegment8": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 2050,
+      "posy": 360,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 0
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment9": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 2050,
+      "posy": 440,
+      "scalex": 80.0,
+      "scaley": 5.0,
+      "angle": 0
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 80.0
+      }
+    }
+  },
+  "PressKey1": {
+    "File": "Key.json",
+    "Transform": {
+      "posx": 1310,
+      "posy": 500,
+      "scalex": 50.0,
+      "scaley": 5.0,
+      "angle": 90
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 50.0
+      }
+    },
+    "Type": "PRESSKEY1"
+  },
+  "PressKey2": {
+    "File": "Key.json",
+    "Transform": {
+      "posx": 2020,
+      "posy": 400,
+      "scalex": 50.0,
+      "scaley": 5.0,
+      "angle": 90
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 50.0
+      }
+    },
+    "Type": "PRESSKEY2"
+  },
+  "PressKey3": {
+    "File": "Lift1.json",
+    "Transform": {
+      "posx": 3350,
+      "posy": 280,
+      "scalex": 100.0,
+      "scaley": 10.0
+    },
+    "Body": {
+      "mass": 0
+    },
+    "UpDown": {
+      "goingUp": true,
+      "timerLimit": 30000,
+      "speed": 1.0,
+      "start": false
+    },
+    "Type": "PRESSKEY3"
+  }
+}

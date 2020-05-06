@@ -1,0 +1,38 @@
+{
+  "Body": {
+    "mass": 0.0,
+    "AABB": {
+      "bottom": 30.0,
+      "left": 40.0,
+      "right": 40.0,
+      "top": 30.0
+    }
+  },
+  "Sprite": {
+    "Shape": "Square",
+    "Texture": [ "grenade.png" ],
+    "SpriteFiles": {
+      "blast": {
+        "imageFile": "blast.png",
+        "mulTextureX": 0.2,
+        "mulTextureY": 0.3333333,
+        "numOfImages": 15,
+        "timerLimit": 200.0
+      },
+      "grenade": {
+        "imageFile": "grenade.png",
+        "mulTextureX": 1.0,
+        "mulTextureY": 1.0,
+        "numOfImages": 1,
+        "timerLimit": 310.0
+      }
+    }
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+    "Type": "GRENADE"
+  }

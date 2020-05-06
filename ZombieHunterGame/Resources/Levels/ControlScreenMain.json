@@ -1,0 +1,337 @@
+{
+  "BackGroundBlur": {
+    "BgImage": "backgroundBlur.png"
+  },
+  "MouseButton": {
+    "File": "MouseClickInMenu.json",
+    "Transform": {
+      "posx": 0,
+      "posy": 0,
+      "scalex": 1,
+      "scaley": 1
+    },
+    "Body": {
+      "mass": 0
+    }
+  },
+  "Text1": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Controls",
+      "scale": 2,
+      "time": 0,
+      "x": 15,
+      "y": 550
+    }
+  },
+  "Text8": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 450,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Debug Mode",
+      "scale": 2,
+      "time": 0,
+      "x": 505,
+      "y": 550
+    }
+  },
+  "Text9": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 450,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Left Arrow - Stop Frame",
+      "scale": 0.8,
+      "time": 0,
+      "x": 515,
+      "y": 500
+    }
+  },
+  "Text13": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 450,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Left Arrow - Next Frame",
+      "scale": 0.8,
+      "time": 0,
+      "x": 515,
+      "y": 470
+    }
+  },
+  "Text10": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 450,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Right Arrow - Run Frame",
+      "scale": 0.8,
+      "time": 0,
+      "x": 515,
+      "y": 440
+    }
+  },
+  "Text11": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 450,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "U - Bounding Box",
+      "scale": 0.8,
+      "time": 0,
+      "x": 515,
+      "y": 410
+    }
+  },
+  "Text2": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "W/Space  ------- JUMP",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 500
+    }
+  },
+  "Text3": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "A  -----   Move Left",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 470
+    }
+  },
+  "Text4": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "D  -----  Move Right",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 440
+    }
+  },
+  "Text5": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Mouse L-Click - Shoot",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 410
+    }
+  },
+  "Text6": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "1 - Weapon Bullets",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 380
+    }
+  },
+  "Text7": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "2 - Weapon Circle",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 350
+    }
+  },
+  "Text12": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 550,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Escape - Pause Menu",
+      "scale": 0.8,
+      "time": 0,
+      "x": 15,
+      "y": 320
+    }
+  },
+  "ResumeButton": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 260,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Back",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 260
+    },
+    "Type": "BACKBUTTONCONTROLMAIN"
+  },
+  "GameTitle": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 100,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Zombie Hunter",
+      "scale": 3,
+      "time": 0,
+      "x": 15,
+      "y": 50
+    }
+  }
+}

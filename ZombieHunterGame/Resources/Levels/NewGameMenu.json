@@ -1,0 +1,146 @@
+{
+  "BackGround": {
+    "BgImage": "background.png"
+  },
+  "BackGroundBlur": {
+    "BgImage": "backgroundBlur.png"
+  },
+  "MouseButton": {
+    "File": "MouseClickInMenu.json",
+    "Transform": {
+      "posx": 800,
+      "posy": 600,
+      "scalex": 1,
+      "scaley": 1
+    },
+    "Body": {
+      "mass": 0
+    }
+  },
+  "NewButton": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 450,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "New Game",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 450
+    },
+    "Type": "NEWBUTTON"
+  },
+  "Control": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 360,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Type": "CONTROLBUTTONMAIN",
+    "Text": {
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "whatsTheText": "Controls",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 360
+    }
+  },
+  "Credits": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 270,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Type": "CREDITBUTTONMAIN",
+    "Text": {
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "whatsTheText": "Credits",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 270
+    }
+  },
+  "QuitButton": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 180,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Type": "QUITBUTTON",
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Quit",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 180
+    }
+  },
+  "Text1": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 100,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Zombie Hunter",
+      "scale": 3,
+      "time": 0,
+      "x": 15,
+      "y": 50
+    }
+  }
+}

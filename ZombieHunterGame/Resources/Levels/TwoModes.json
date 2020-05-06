@@ -1,0 +1,119 @@
+{
+  "BackGroundBlur": {
+    "BgImage": "backgroundBlur.png"
+  },
+  "MouseButton": {
+    "File": "MouseClickInMenu.json",
+    "Transform": {
+      "posx": 0,
+      "posy": 0,
+      "scalex": 1,
+      "scaley": 1
+    },
+    "Body": {
+      "mass": 0
+    }
+  },
+  "Campaign": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 450,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Type": "CAMPAIGN",
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Campaign",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 450
+    }
+  },
+  "Survival": {
+    "Body": {
+      "mass": 0
+    },
+    "File": "Button.json",
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "scale": 1,
+      "time": 0,
+      "whatsTheText": "Survival",
+      "x": 15,
+      "y": 360
+    },
+    "Transform": {
+      "posx": 60,
+      "posy": 360,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+
+    },
+    "Type": "SURVIVAL"
+  },
+  "MainMenu": {
+    "File": "Button.json",
+    "Transform": {
+      "posx": 60,
+      "posy": 270,
+      "scalex": 100.0,
+      "scaley": 200.0,
+      "angle": -90
+
+    },
+    "Body": {
+      "mass": 0
+    },
+    "Type": "BACKBUTTONCONTROLMAIN",
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Back",
+      "scale": 1,
+      "time": 0,
+      "x": 15,
+      "y": 270
+    }
+  },
+  "Text1": {
+    "File": "TextObject.json",
+    "Transform": {
+      "posx": 15,
+      "posy": 100,
+      "scalex": 0,
+      "scaley": 0
+    },
+    "Text": {
+      "color": {
+        "b": 0.0,
+        "g": 1.0,
+        "r": 1.0
+      },
+      "whatsTheText": "Zombie Hunter",
+      "scale": 3,
+      "time": 0,
+      "x": 15,
+      "y": 50
+    }
+  }
+}

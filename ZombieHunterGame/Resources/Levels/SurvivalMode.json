@@ -1,0 +1,433 @@
+{
+  "BackGround": {
+    "BgImage": "background.png"
+  },
+  "ListOfGameObjects": {
+    "Objs": [
+      "Player.json",
+      "Grenade.json",
+      "Zombie1Walk.json",
+      "Zombie1.json",
+      "Zombie2.json",
+      "ZombieRun1.json",
+      "ZombieRun2.json",
+      "Lift1.json",
+      "Bullet.json",
+      "Floor1.json",
+      "Knife.json",
+      "Circle.json",
+      "LineSegment.json",
+      "Key.json",
+      "Crate.json",
+      "Lift1.json",
+      "Bush.json",
+      "Bush2.json",
+      "DeadBush.json",
+      "Arrow.json",
+      "Tree.json",
+      "Sign.json",
+      "Sign2.json",
+      "tombStone.json",
+      "tombStone2.json",
+      "skeleton.json"
+    ]
+  },
+  "LiveZombie": { "num": 4 },
+  "Player": {
+    "File": "Player.json",
+    "Transform": {
+      "posx": 400,
+      "posy": 400,
+      "scalex": 150.0,
+      "scaley": 105.0
+    },
+    "Body": {
+      "mass": 5
+    }
+  },
+  "ZombieWalk1": {
+    "File": "Zombie1.json",
+    "Transform": {
+      "posx": 765,
+      "posy": 300,
+      "scalex": 220.0,
+      "scaley": 150.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 70,
+        "left": 100,
+        "right": 100,
+        "top": 70
+      },
+      "mVelX": -5.0,
+      "mVelY": 0
+    }
+  },
+  "ZombieWalk2": {
+    "File": "Zombie1Walk.json",
+    "Sprite": {
+      "SpriteFiles": {
+        "isFlip": false
+      }
+    },
+    "Transform": {
+      "posx": 35,
+      "posy": 300,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 70,
+        "left": 100,
+        "right": 100,
+        "top": 70
+      },
+      "mVelX": 5.0,
+      "mVelY": 0
+    }
+  },
+  "ZombieThrowKnife1": {
+    "File": "Zombie2.json",
+    "Transform": {
+      "posx": 735,
+      "posy": 515,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Body": {
+      "mass": 5
+    }
+  },
+  "ZombieThrowKnife2": {
+    "File": "Zombie2.json",
+    "Transform": {
+      "posx": 65,
+      "posy": 515,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Sprite": {
+      "SpriteFiles": {
+        "isFlip": false
+      }
+    },
+    "Body": {
+      "mass": 5
+    }
+  },
+  "ZombieRun1": {
+    "File": "ZombieRun1.json",
+    "Transform": {
+      "posx": 75,
+      "posy": 145,
+      "scalex": 220.0,
+      "scaley": 180.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 50,
+        "left": 100,
+        "right": 100,
+        "top": 50
+      }
+    },
+    "LeftRight": {
+      "goingRight": true,
+      "timerLimit": 20000,
+      "speed": 2.0
+    }
+  },
+  "ZombieRun2": {
+    "File": "ZombieRun2.json",
+    "Transform": {
+      "posx": 700,
+      "posy": 150,
+      "scalex": 220.0,
+      "scaley": 160.0
+    },
+    "Body": {
+      "mass": 5,
+      "AABB": {
+        "bottom": 50,
+        "left": 100,
+        "right": 100,
+        "top": 50
+      }
+    },
+    "LeftRight": {
+      "goingRight": false,
+      "timerLimit": 20000,
+      "speed": 2.0
+    },
+    "Type": "ZOMBIERUN"
+  },
+  "Grenade1": {
+    "File": "Grenade.json",
+    "Transform": {
+      "posx": 150,
+      "posy": 420,
+      "scalex": 30.0,
+      "scaley": 40.0
+    },
+    "Body": {
+      "mass": 0.0
+    }
+  },
+  "Tile1": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 400,
+      "posy": 25,
+      "scalex": 800,
+      "scaley": 50
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 800,
+        "bottom": 800,
+        "left": 50,
+        "right": 50
+      }
+    }
+  },
+  "Tile2": {
+    "File": "Floor2.json",
+    "Transform": {
+      "posx": -10,
+      "posy": 300,
+      "scalex": 20,
+      "scaley": 600
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 20,
+        "bottom": 20,
+        "left": 600,
+        "right": 600
+      }
+    }
+  },
+  "Tile3": {
+    "File": "Floor2.json",
+    "Transform": {
+      "posx": 810,
+      "posy": 300,
+      "scalex": 20,
+      "scaley": 600
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 20,
+        "bottom": 20,
+        "left": 600,
+        "right": 600
+      }
+    }
+  },
+  "Tile4": {
+    "File": "Floor2.json",
+    "Transform": {
+      "posx": 100,
+      "posy": 200,
+      "scalex": 200,
+      "scaley": 10
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 200,
+        "bottom": 200,
+        "left": 10,
+        "right": 10
+      }
+    }
+  },
+  "Tile5": {
+    "File": "Floor2.json",
+    "Transform": {
+      "posx": 100,
+      "posy": 400,
+      "scalex": 200,
+      "scaley": 10
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 200,
+        "bottom": 200,
+        "left": 10,
+        "right": 10
+      }
+    }
+  },
+  "Tile6": {
+    "File": "Floor2.json",
+    "Transform": {
+      "posx": 700,
+      "posy": 250,
+      "scalex": 200,
+      "scaley": 10
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 200,
+        "bottom": 200,
+        "left": 10,
+        "right": 10
+      }
+    }
+  },
+  "Tile7": {
+    "File": "Floor2.json",
+    "Transform": {
+      "posx": 700,
+      "posy": 450,
+      "scalex": 200,
+      "scaley": 10
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 200,
+        "bottom": 200,
+        "left": 10,
+        "right": 10
+      }
+    }
+  },
+  "Tile8": {
+    "File": "Floor1.json",
+    "Transform": {
+      "posx": 400,
+      "posy": 300,
+      "scalex": 200,
+      "scaley": 10
+    },
+    "Body": {
+      "mass": 0,
+      "AABB": {
+        "top": 200,
+        "bottom": 200,
+        "left": 10,
+        "right": 10
+      }
+    }
+  },
+  "Crate1": {
+    "File": "Crate.json",
+    "Transform": {
+      "posx": 400,
+      "posy": 100,
+      "scalex": 100.0,
+      "scaley": 100.0
+    },
+    "Body": {
+      "mass": 0
+    }
+  },
+  "LineSegment1": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 350,
+      "posy": 550,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 135
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment5": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 150,
+      "posy": 550,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 45
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment2": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 500,
+      "posy": 550,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 45
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment6": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 650,
+      "posy": 550,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 135
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment3": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 250,
+      "posy": 350,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 45
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  },
+  "LineSegment4": {
+    "File": "LineSegment.json",
+    "Transform": {
+      "posx": 550,
+      "posy": 350,
+      "scalex": 100.0,
+      "scaley": 5.0,
+      "angle": 135
+    },
+    "Body": {
+      "mass": 0,
+      "Line": {
+        "length": 100.0
+      }
+    }
+  }
+}

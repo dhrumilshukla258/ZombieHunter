@@ -1,0 +1,13 @@
+{
+  "Type": "CRATE",
+  "Sprite": {
+    "Texture": [ "DeadBush.png" ],
+    "Shape": "Square"
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  }
+}

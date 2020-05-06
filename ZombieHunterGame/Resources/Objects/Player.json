@@ -1,0 +1,65 @@
+{
+  "Body": {
+    "mass": 1.0,
+    "AABB": {
+      "bottom": 40,
+      "left": 100,
+      "right": 100,
+      "top": 40
+    }
+  },
+  "Camera": {
+    "posx": 0.0,
+    "posy": 0.0
+  },
+  "Controller": {},
+  "Sprite": {
+    "Folder": "player",
+    "Shape": "Square",
+    "SpriteFiles": {
+      "attackbullet": {
+        "imageFile": "attackbullet.png",
+        "mulTextureX": 0.5,
+        "mulTextureY": 0.3333333,
+        "numOfImages": 6,
+        "timerLimit": 200.0
+      },
+      "attackcircle": {
+        "imageFile": "attackcircle.png",
+        "mulTextureX": 0.5,
+        "mulTextureY": 0.3333333,
+        "numOfImages": 6,
+        "timerLimit": 200.0
+      },
+      "idle": {
+        "imageFile": "idle.png",
+        "mulTextureX": 0.25,
+        "mulTextureY": 0.5,
+        "numOfImages": 8,
+        "timerLimit": 200.0
+      },
+      "jump": {
+        "imageFile": "jump.png",
+        "mulTextureX": 0.25,
+        "mulTextureY": 0.5,
+        "numOfImages": 8,
+        "timerLimit": 500.0
+      },
+      "walk": {
+        "imageFile": "walk.png",
+        "mulTextureX": 0.25,
+        "mulTextureY": 0.5,
+        "numOfImages": 8,
+        "timerLimit": 200.0
+      },
+      "isFlip": false
+    }
+  },
+  "Transform": {
+    "posx": 0.0,
+    "posy": 0.0,
+    "scalex": 1.0,
+    "scaley": 1.0
+  },
+  "Type": "PLAYER"
+}
