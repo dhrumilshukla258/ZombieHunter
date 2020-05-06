@@ -30,4 +30,6 @@
 *.out
 *.app
 
+.gitignore
+.gitattribute
 walkthrough.mp4
